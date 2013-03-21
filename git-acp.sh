@@ -10,6 +10,6 @@ read -p "commit description: " desc
 git commit -m "$desc"
 git push $repository
 echo "Done"
-echo "(\___/)"
-echo "(=’.'=)"
-echo "(“)_(“)"
+echo "(\___/)	/"
+echo "(=’.'=) <  Done!"
+echo "(“)_(“)	\\"
