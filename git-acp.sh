@@ -9,7 +9,8 @@ git add .
 read -p "commit description: " desc
 git commit -m "$desc"
 git push $repository
-echo "Done"
-echo "(\___/)	/"
-echo "(=’.'=) <  Done!"
-echo "(“)_(“)	\\"
+echo "=================================================="
+echo " (\___/)"
+echo " (=’.'=) <  Files added, committed and pushed!"
+echo " (“)_(“)"
+echo "=================================================="
