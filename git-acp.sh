@@ -9,4 +9,7 @@ git add .
 read -p "commit description: " desc
 git commit -m "$desc"
 git push $repository
-echo "Done ( ^_^)"
+echo "Done"
+echo "(\___/)"
+echo "(=’.'=)"
+echo "(“)_(“)"
