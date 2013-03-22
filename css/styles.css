@@ -34,7 +34,7 @@ body {
 		url("../../img/body.gif") repeat -50% 0,
 		#CECECE;
 	color: #303030;
-	font: normal 100%/1.5 Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
+	font: normal 100%/1.5 'Questrial', sans-serif;
 }
 .ie7 body {
 	background: #CECECE url("../../img/body.gif");	/* Stupid IE7 bug is stupid. */
@@ -166,7 +166,7 @@ img {
 }
 .nav-primary {
 	background: #5E140D url("../../img/nav-bg.jpg");
-	font: bold 14px "pill-gothic-300mg-1","pill-gothic-300mg-2", Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
+	font: bold 14px 'Questrial', sans-serif;
 	padding: 1.2em 1em 1em;
 	text-transform: uppercase;
 	top: 24px;
@@ -297,11 +297,15 @@ a.next.disabled:hover {
 	background: #000;
 	border-left: 12px solid #000;
 	color: #FFF;
-	font: normal 3.625em/0.9 "league-gothic-1", "league-gothic-2", "League Gothic", "Arial Narrow", Arial, sans-serif;	/* 58/16 */
+	font: normal 3.625em/0.9 'Questrial', sans-serif;	/* 58/16 */
 	margin-left: -12px;
 	margin-bottom: 0.15em;
 	padding: 12px 2.4691358% 6px;		/* 12 / 660 */
 	text-transform: uppercase;
+}
+.tall-title {
+	height: 25%;
+	text-align: center;
 }
 .welcome .main p {
 	padding-left: 2.4691358%;		/* 12 / 660 */
@@ -327,7 +331,7 @@ a.next.disabled:hover {
 .lede {
 	background: #751910 url("../../img/blog-title-bg.jpg");
 	color: #F9E3CC;
-	font: normal 1.25em "league-gothic-1", "league-gothic-2", "League Gothic", "Arial Narrow", Arial, sans-serif;	/* 20px / 16px */
+	font: normal 1.25em 'Questrial', sans-serif;	/* 20px / 16px */
 	padding: 0.8em 5.33333333%;	/* 16px / 20px; 48px / 900px */
 	text-transform: uppercase;
 }
@@ -750,7 +754,8 @@ screen and (max-device-width: 480px) {
 		margin-top: 0;
 	}
 	.logo {
-		margin-bottom: 40px;
+		margin-bottom: 0;
+		margin-left: 40%;
 	}
 	.logo:after {
 		-moz-box-shadow: -1px -1px 0 #DA2F1E, -2px -2px 0 #DA2F1E, -3px -3px 0 #DA2F1E, -4px -4px 0 #DA2F1E, -5px -5px 0 #DA2F1E, -6px -6px 0 #DA2F1E, -7px -7px 0 #DA2F1E, -8px -8px 0 #DA2F1E, -9px -9px 0 #DA2F1E, -10px -10px 0 #DA2F1E, -11px -11px 0 #DA2F1E;
@@ -758,14 +763,17 @@ screen and (max-device-width: 480px) {
 		box-shadow: -1px -1px 0 #DA2F1E, -2px -2px 0 #DA2F1E, -3px -3px 0 #DA2F1E, -4px -4px 0 #DA2F1E, -5px -5px 0 #DA2F1E, -6px -6px 0 #DA2F1E, -7px -7px 0 #DA2F1E, -8px -8px 0 #DA2F1E, -9px -9px 0 #DA2F1E, -10px -10px 0 #DA2F1E, -11px -11px 0 #DA2F1E;
 	}
 	.logo a {
-		padding: 68px 14.8148% 48px;
+		padding: 25px 35.8148% 2px;
+		color: #FFFFFF;
 	}
 	.nav-primary,
 	.nav-primary li {
 		padding: 30px 1em;
 	}
 	.nav-primary {
-		top: 55px;
+		top: 5px;
+		text-align: center;
+		clear: both;
 	}
 
 	.lede:after {
